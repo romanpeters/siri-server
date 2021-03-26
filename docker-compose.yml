@@ -1,0 +1,21 @@
+version: '3'
+services:
+  url:
+     image: flask-app:latest
+     container_name: flask-app
+     restart: always
+     volumes:
+       - ./app:/app
+     ports:
+       - 5000:5000
+#     networks:
+#       - traefik_proxy
+#     labels:
+#       - "traefik.enable=true"
+#       - "traefik.docker.network=traefik_proxy"
+#       - "traefik.frontend.rule=Host:app.example.nl"
+#       - "traefik.port=5000"
+
+#networks:
+#  traefik_proxy:
+#    external: true
