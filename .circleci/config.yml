@@ -10,8 +10,9 @@ jobs:
       - checkout
       - python/load-cache
       - python/install-deps
+      - run: pip install pytest
       - python/save-cache
-      - run: pip install pytest && python -m pytest -v tests
+      - run: python -m pytest -v tests
 
 workflows:
   main:
