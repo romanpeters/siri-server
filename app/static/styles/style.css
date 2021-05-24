@@ -1,0 +1,47 @@
+* {
+    font-family: 'Enriqueta', Helvetica, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+}
+
+.input-bar {
+    font-size: 2.4rem;
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+    padding: 2rem;
+    transition: all .1s;
+    transition-delay: .1s;
+}
+
+
+.background {
+    /* The image used */
+    background-image: url('../images/sienster.svg');
+    height: 100%;
+    /* Center and scale the image */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #22314A;
+    background-attachment: fixed;
+}
