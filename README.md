@@ -4,7 +4,7 @@
 
 Siri Server is a small web server, designed to run on a macOS server or virtual machine.  
 It can relay queries to Siri by emulating keyboard presses and accessing the macOS system Siri assistant.
-It features a webpage were you can enter your query as well as an API.
+It features a webpage where you can enter your query as well as an API.
 
 # Why?
 For instance, if you want to automate running a specific Siri command, this is now only one URL call away.
