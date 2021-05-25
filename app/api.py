@@ -14,7 +14,7 @@ def ask():
         return abort(400)
     query = request.json['query']
     hey_siri(query)
-    jsonify({'query': query})
+    return jsonify({'query': query})
 
 
 
